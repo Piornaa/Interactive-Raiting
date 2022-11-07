@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+}
+
+.box-conteiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    background-color: hsl(214, 19%, 15%);
+    width: 296px;
+    border-radius: 20px;
+    padding: 26px;
+}
+
+
+/* conteiner how did */
+
+h2 {
+    color: white;
+    margin: 16px 0;
+}
+
+.conteiner-button {
+    display: flex;
+    margin: 35px 0 25px 0;
+    justify-content: space-between;
+}
+
+button {
+    background-color: hsl(213, 20%, 20%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    border: none;
+    width: 45px;
+    height: 45px;
+}
+
+.conteiner-star {
+    background-color: hsl(213, 20%, 20%);
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+/* conteiner thank you */
+
+.conteiner-thank {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.conteiner-thank-select {
+    background-color: hsl(213, 20%, 20%);
+    color: hsl(25, 58%, 49%);
+    padding: 4px 0px;
+    width: 180px;
+    margin: 20px auto 30px auto;
+    border-radius: 40px;
+}
+
+/* efectos css */
+button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+/* estilos java */
+.invisible {
+    display: none;
+}
+
+.background-button {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
